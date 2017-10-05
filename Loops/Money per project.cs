@@ -10,10 +10,10 @@ namespace MoneyGift
     {
         static void Main(string[] args)
         {
-            var projectParts = int.Parse(Console.ReadLine());
-            var moneyPerPoint = double.Parse(Console.ReadLine());
-            var sumOfEvenPoints = 0.0;
-            var sumOfOddPoints = 0.0;
+            int projectParts = int.Parse(Console.ReadLine());
+            double moneyPerPoint = double.Parse(Console.ReadLine());
+            double sumOfEvenPoints = 0.0;
+            double sumOfOddPoints = 0.0;
             
 
             for (int i = 1; i <= projectParts; i++)
